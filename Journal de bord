@@ -1,1 +1,6 @@
-
+23.05.2016
+- Suivi de la première partie du tutoriel sur le Tile Mapping "http://jeux.developpez.com/tutoriels/tile-mapping-construction-niveau/presentation-generale/"
+  qui m'a permi de créer un niveau grâce à un Tile Set créé auparavant sur GIMP. Le résultat est un niveau que l'on peut afficher dans une fenêtre SDL de la
+  taille souhaitée.
+  - 1h45
+  - Damien
