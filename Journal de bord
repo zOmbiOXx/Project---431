@@ -4,3 +4,14 @@
   taille souhaitée.
   - 1h45
   - Damien
+
+- Suivi de la partie "Simple Personnage", "http://jeux.developpez.com/tutoriels/tile-mapping-construction-niveau/simple-personnage/"
+  qui m'a permis de gérer les déplacements d'un rectangle (vert) dans une fenêtre SDL et qui vient percuter un rectangle (brun).
+  Des problèmes de multiples exécutions des ".h" ont été rencontrés. Cela m'a fait prendre du retard.
+  Solution : 
+      #ifndef _monNomH
+      #define _monNomH
+        <code ici>
+      #endif
+  - 2h45
+  - Emanuel
