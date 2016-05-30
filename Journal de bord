@@ -15,3 +15,19 @@
       #endif
   - 2h45
   - Emanuel
+
+30.05.2016
+- Lecture de deux tutoriels sur l'intelligence artificielle dans les jeux vidéos de manière générale afin d'avoir une vue d'ensemble sur 
+  le sujet et de savoir comment l'aborder de la bonne manière. Ils m'ont appris qu'une IA avait différentes phases (Passive, traque,
+  attaque, fuite etc etc...) pendant lesquelles elle allait agire de manière différente. Ces phases sont gérées dans des fonctions.
+  - https://software.intel.com/fr-fr/articles/two-brains-are-better-than-one
+  - http://intel.developpez.com/tutoriels/jeux-video/concevoir-intelligence-artificielle/conception-implementation/
+  - 1h
+  - Damien
+  
+- Lecture et essai d'un tutoriel plus spécifié qui permet d'effectuer automatiquement certaines tâches en définissant un laps de temps
+  auquel une action doit se répéter. Ce laps de temps est géré grâce aux fonctions SDL_GetTicks et SDL_PollEvent. Malheureusement,
+  le tutoriel n'étant pas très détaillé et le code source ne fonctionnant pas, j'ai décidé d'abandonner ce tutoriel.
+  - http://vally8.free.fr/coinprog/sdl/tut4/timer.php
+  - 20 minutes
+  - Damien
