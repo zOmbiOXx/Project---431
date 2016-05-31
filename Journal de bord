@@ -32,7 +32,9 @@
   - 20 minutes
   - Damien
 
-- Ajout de nouvelles tuiles qui permettra la création de maps avec Photoshop.
+- Recherche d'images que j'ai modifiées et ajoutées aux tuiles existantes.
+  J'ai rajouté à certaines un effet d'ombre qui permet une sorte de 2.5D.
+  Une 2ème map est en cours de création avec un décor d'extérieur.
   - 3h
   - Emanuel
 
@@ -42,3 +44,8 @@
   de choisir la direction de déplacement et un point d'arrêt.
   - 30 minutes
   - Damien
+
+- Avancement dans le design, ajout de nouvelles tuiles et map extérieur.
+  Séparation des maps dans un fichier externe ".h" ce qui facilite l'organisation.
+  - 3h
+  - Emanuel
