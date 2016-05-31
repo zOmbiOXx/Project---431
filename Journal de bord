@@ -35,3 +35,10 @@
 - Ajout de nouvelles tuiles qui permettra la création de maps avec Photoshop.
   - 3h
   - Emanuel
+
+31.05.2016
+- Création d'un début de fonction permettant de faire se déplacer un élément en carré dans la map grâce à un changement de direction quand 
+  sa position sur l'axe X ou Y dépasse une certaine valeure. La fonction n'est pas encore tout à fait finie mais il est désormais possible
+  de choisir la direction de déplacement et un point d'arrêt.
+  - 30 minutes
+  - Damien
