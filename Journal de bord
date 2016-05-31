@@ -32,7 +32,9 @@
   - 20 minutes
   - Damien
 
-- Ajout de nouvelles tuiles qui permettra la création de maps avec Photoshop.
+- Ajout de nouvelles tuiles avec une ombre.
+  Recherche et modification d'images qui s'incrusteront dans le Tileset afin de créer des maps de différents types, nature, donjon, désert...
+  Modification de la map afin de la mettre dans un fichier .h externe ce qui simplifiera la recherche et la modification des maps.
   - 3h
   - Emanuel
 
