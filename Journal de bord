@@ -15,6 +15,11 @@
       #endif
   - 2h45
   - Emanuel
+- Suivi de la première partie du tutoriel sur le "Scrolling" (Scrolling de la caméra), 
+  "http://loka.developpez.com/tutoriel/sdl/scrolling/#LXIV-2", qui m'a permis de faire bouger un point dans une image de n'importe 
+  quelle taille.
+  - 2h
+  - Pablo
 
 30.05.2016
 - Lecture de deux tutoriels sur l'intelligence artificielle dans les jeux vidéos de manière générale afin d'avoir une vue d'ensemble sur 
@@ -38,6 +43,11 @@
   - 3h
   - Emanuel
 
+- Lecture de la première partie du tutoriel sur les animations sur le site "http://loka.developpez.com/tutoriel/sdl/animation/", 
+  ce tutoriel m'a permis de mieux comprendre le concept des animations en utilisant une feuille de sprite.
+  - 1h30
+  - Pablo
+
 31.05.2016
 - Création d'un début de fonction permettant de faire se déplacer un élément en carré dans la map grâce à un changement de direction quand 
   sa position sur l'axe X ou Y dépasse une certaine valeure. La fonction n'est pas encore tout à fait finie mais il est désormais possible
@@ -49,3 +59,19 @@
   Séparation des maps dans un fichier externe ".h" ce qui facilite l'organisation.
   - 3h
   - Emanuel
+  
+- Suivi de la deuxième et dernière partie du tutoriel sur les animations. Après la lecture de ce chapitre, j'ai essayé d'implémenter 
+  la même technique dans notre projet. J'ai recontré quelques inconvénients par rapport à la taille de l'image mais grâce à l'aide de 
+  mes camarades j'ai réussi à comprendre et on a maintenant un personnage qui peut se déplacer vers la gauche et vers la droite.
+  - 1h
+  - Pablo
+
+- Continuation du code permettant à un objet de se déplacer. Après pas mal de recherches sur internet dûes au fait que l'objet
+  ne changeait pas de direction, il s'est finalement avéré que ce problême venait en fait d'une mauvaise formulation d'un if(){}
+  qui donnait un cas qui ne se présentait jamais. Après correction de ce problème l'avancée a donc continuer. Grâce au rand, l'objet 
+  fait maintenant un nombre définit de déplacements dans une direction aléatoire. Une fois qu'il a fait ses déplacements, le rand se 
+  lance et en fonction de son résultat l'objet ira dans un sens ou un autre. Un dernier problème à résoudre et que l'objet ne change 
+  pas de direction quand il atteint les bords de la map. Il faut donc régler ce problème et pourquoi pas ajouter des variations de 
+  vitesses ou des variations de distance.
+  - 1h30
+  - Damien
