@@ -71,7 +71,11 @@
   qui donnait un cas qui ne se présentait jamais. Après correction de ce problème l'avancée a donc continuer. Grâce au rand, l'objet 
   fait maintenant un nombre définit de déplacements dans une direction aléatoire. Une fois qu'il a fait ses déplacements, le rand se 
   lance et en fonction de son résultat l'objet ira dans un sens ou un autre. Un dernier problème à résoudre et que l'objet ne change 
-  pas de direction quand il atteint les bords de la map. Il faut donc régler ce problème et pourquoi pas ajouter des variations de 
-  vitesses ou des variations de distance.
+  pas de direction quand il atteint les bords de la map.
   - 1h30
+  - Damien
+  
+02.06.2016
+- Amélioration du code pour le déplacement de l'objet. Lorsqu'il atteint un bord de la map, il change de direction.
+  - 10 minutes
   - Damien
