@@ -79,3 +79,22 @@
 - Amélioration du code pour le déplacement de l'objet. Lorsqu'il atteint un bord de la map, il change de direction.
   - 10 minutes
   - Damien
+
+03.06.2016
+
+- Fusion du code du déplacement automatique avec celui du shuriken qui tourne.
+ - 30 minutes
+ - Principalement Manu petite aide de Damien
+ 
+- Ajout d'un deuxième carré qui se déplace automatiquement ou d'un carré fixe dans le code pour essayer de faire que la programme
+  s'arrête quand ils entrent en contact. Après plusieurs tentatives pour faire fonctionner la chose par moi même à l'aide d'un if
+  et des coordonées du bord d'un carré fixe, du coordoné de ses coins ou d'un point sur un de ces côtés,  le programme fonctionne 
+  mais pas à tous les coups. Afin de ne pas perdre plus de temps là dessus recherche d'un tutoriel sur internet.
+  - 2h
+  - Damien
+  
+- Lecture et compréhension des deux premiers chapitre du tutoriel "Chapitre XI : Détection et gestion des collisions avec SDL"
+  de Loka.
+  - http://loka.developpez.com/tutoriel/sdl/collision/
+  - 30 minutes
+  - Damien
