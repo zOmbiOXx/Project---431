@@ -74,14 +74,20 @@
   pas de direction quand il atteint les bords de la map.
   - 1h30
   - Damien
-  
+
+01.06.2016
+- Création d'un shuriken rotatif qui servira de piège par la suite.
+  Intégration de sdlgfx.dll obligatoire. Cette nouvelle SDL est à ajouter avec la précédente. Elle est disponnible ici : "http://www.aaroncox.net/tutorials/2dtutorials/sdlshapes.html"
+  et fonctionne normalement avec Visual Studio mais est compatible avec CodeBlocks.
+  - 1h
+  - Emanuel
+
 02.06.2016
 - Amélioration du code pour le déplacement de l'objet. Lorsqu'il atteint un bord de la map, il change de direction.
   - 10 minutes
   - Damien
 
 03.06.2016
-
 - Fusion du code du déplacement automatique avec celui du shuriken qui tourne.
  - 30 minutes
  - Principalement Manu petite aide de Damien
@@ -98,3 +104,7 @@
   - http://loka.developpez.com/tutoriel/sdl/collision/
   - 30 minutes
   - Damien
+
+- Tentative d'incrustation du shuriken dans la map déjà créée.
+  - 3h
+  - Emanuel
