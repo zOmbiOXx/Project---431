@@ -95,7 +95,7 @@
  
 - Ajout d'un deuxième carré qui se déplace automatiquement ou d'un carré fixe dans le code pour essayer de faire que la programme
   s'arrête quand ils entrent en contact. Après plusieurs tentatives pour faire fonctionner la chose par moi même à l'aide d'un if
-  et des coordonées du bord d'un carré fixe, du coordoné de ses coins ou d'un point sur un de ces côtés,  le programme fonctionne 
+  et des coordonnées du bord d'un carré fixe, des coordonnées de ses coins ou d'un point sur un de ses côtés,  le programme fonctionne 
   mais pas à tous les coups. Afin de ne pas perdre plus de temps là dessus recherche d'un tutoriel sur internet.
   - 2h
   - Damien
@@ -117,3 +117,15 @@
   - http://loka.developpez.com/tutoriel/sdl/collision/
   - 1h30
   - Damien
+
+- Amélioration de la réaction du carré qui se déplace seul lorsqu'il touche les bords. Jusqu'à présent, quand il était en contact avec
+  un des bords de la map, le compteur du nombre de mouvement se mettait au max, ce qui entrainait un reset du rand et un reset du
+  compteur. Le problème avec cette méthode était qu'il y avait une chance sur quatre que le carré reprenne dans la direction dans
+  laquelle il allait et continue donc à sortir entrainant plus de reset etc. On observait des mouvements rapides du carré dans toutes
+  les directions et parfois il restait bloqué ou sortait complétement de la map. J'ai donc modifié ceci en remplaçant le if unique par 
+  quatre if reprenant chacun une des éventualité (sortie haut, sortie bas, sortie gauche, sortie droite). Maintenant, à la place de
+  relancer un rand, quand le carré arrive très proche d'une des limites, il continue le compteur de mouvement là où il en est mais se
+  déplace dans la direction opposée pour la fin ce qui l'éloigne du bord.
+  - 15 minutes
+  - Damien
+  
