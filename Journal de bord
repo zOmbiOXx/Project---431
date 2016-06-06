@@ -109,3 +109,11 @@
 - Tentative d'incrustation du shuriken dans la map déjà créée.
   - 3h
   - Emanuel
+
+06.06.2016
+- Application du tutoriel de Loka sur les collisions. Création d'un mur sur la map. Grâce à une fonction Bool on définit tous les cas
+  où il n'y a pas collision. Si il n'y a pas collision, la fontion return false. Dans le cas contraire elle return true. On appelle
+  ensuite la fonction dans la condition d'un if et on indique ce que l'on veut qu'il se passe dans le cas d'une collision.
+  - http://loka.developpez.com/tutoriel/sdl/collision/
+  - 1h30
+  - Damien
