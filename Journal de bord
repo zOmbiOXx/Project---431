@@ -77,8 +77,9 @@
 
 01.06.2016
 - Création d'un shuriken rotatif qui servira de piège par la suite.
-  Intégration de sdlgfx.dll obligatoire. Cette nouvelle SDL est à ajouter avec la précédente. Elle est disponnible ici : "http://www.aaroncox.net/tutorials/2dtutorials/sdlshapes.html"
-  et fonctionne normalement avec Visual Studio mais est compatible avec CodeBlocks.
+  Intégration de sdlgfx.dll obligatoire. Cette nouvelle SDL est à ajouter avec la précédente. Elle est disponnible ici : 
+  "http://www.aaroncox.net/tutorials/2dtutorials/sdlshapes.html" et fonctionne normalement avec Visual Studio mais est compatible 
+  avec CodeBlocks.
   - 1h
   - Emanuel
 
