@@ -110,6 +110,14 @@
   - 3h
   - Emanuel
 
+- Lecture d'un autre tutoriel sur les animations sur le site "http://gamedevgeek.com/tutorials/animating-sprites-with-sdl/", avec ce
+ tutoriel et celui que j'avais lu avant sur le site "http://loka.developpez.com/tutoriel/sdl/animation/", j'ai réussi à faire un
+ personnage avec une animation qui se déplaçait vers la gauche et la droite mais j'ai rencontré quelques inconvénients pour mettre en
+ place la même technique pour toutes les directions. Après l'échec de ses nombreuses tentatives, j'ai dû retourner au chapitre 23 
+ (La gestion des événements) du livre d'OpenClassrooms.
+ - 2h30
+ - Pablo
+
 06.06.2016
 - Application du tutoriel de Loka sur les collisions. Création d'un mur sur la map. Grâce à une fonction Bool on définit tous les cas
   où il n'y a pas collision. Si il n'y a pas collision, la fontion return false. Dans le cas contraire elle return true. On appelle
@@ -129,3 +137,8 @@
   - 15 minutes
   - Damien
   
+- A l'aide du tutoriel sur l'affichage des images et la gestion des événements sur le livre d'OpenClassrooms (chapitres 22-23), j'ai 
+ réussi à mettre en place un programme que pour chaque flèche du clavier, montre le personnage orienté dans la direction correspondente.
+ Le personnage garde toujours les mêmes coordonnées ce qui donne l'impression que le personnage bouge réellement.
+ - 2h
+ - Pablo
