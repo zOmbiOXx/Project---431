@@ -142,3 +142,8 @@
  Le personnage garde toujours les mêmes coordonnées ce qui donne l'impression que le personnage bouge réellement.
  - 2h
  - Pablo
+ 
+- Tentative d'ajouter le shuriken à la map, toujours sans succès. Cependant, je me suis aperçu que le programme lançait d'abord la map puis
+  à la fermeture de celle-ci, le programme du shuriken se lançait. Il faut juste tenter de lancer les deux programmes simulatnément.
+  - 3h
+  - Emanuel
