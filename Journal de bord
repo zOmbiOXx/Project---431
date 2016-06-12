@@ -158,3 +158,19 @@
   la solution qui sera choisie.
   - 1h
   - Damien
+  
+- Création de plusieurs images pour le menu du jeu à l'aide de GIMP 2. Le menu consiste de 3 boutons avec deux images pour chacun. On 
+  en a une quand le bouton est selectionné et une autre quand le bouton n'est pas selectionné. L'idée c'est de se balader
+  dans le menu avec les flèches du clavier, et lorsque l'utilisateur appuie sur la flèche du bas par exemple, ce sera le bouton qui
+  est en dessous du précedant qui va se mettre comme selectionné (en changeant sa couleur), et le précedant se remet à sa couleur par 
+  défaut, et on choisi l'option que l'on veut avec la touche "Enter".
+  - 1h45
+  - Pablo
+  
+12.06.2016
+- Essai d'implémenter un code qui permet le bon fonctionnnement du menu du jeu avec l'aide du livre d'OpenClassrooms et d'autres
+  tutoriels trouvés sur internet sur le site "http://lazyfoo.net/SDL_tutorials/lesson02/index.php". 
+  Cependant, j'ai toujours un problème d'affichage des boutons et un problème de liberation de mémoire malgré avoir libéré
+  la mémoire des pointeurs des surfaces des images.
+  - 2h30
+  - Pablo
