@@ -143,7 +143,18 @@
  - 2h
  - Pablo
  
-- Tentative d'ajouter le shuriken à la map, toujours sans succès. Cependant, je me suis aperçu que le programme lançait d'abord la map puis
-  à la fermeture de celle-ci, le programme du shuriken se lançait. Il faut juste tenter de lancer les deux programmes simulatnément.
+- Tentative d'ajouter le shuriken à la map, toujours sans succès. Cependant, je me suis aperçu que le programme lançait d'abord la map 
+  puis à la fermeture de celle-ci, le programme du shuriken se lançait. Il faut juste tenter de lancer les deux programmes simulatnément.
   - 3h
   - Emanuel
+
+11.06.2016
+- Essai de modifier le programme pour faire en sorte qu'il quitte lorsqu'il y a une collision. Après plusieurs tentatives, je n'arrive 
+  pas à y parvenir. Je suis dans la mesure de repositionner le carré où je veux dans la map mais pas de faire quitter. Un SDL-Quit ne
+  fonctionne pas, créer une variable que l'on passe à 1 quand il y a la collision et utiliser un if disant de quitter quand cette
+  variable passe à 1 ne fonctionne pas non plus. Après lecture de plusieurs tutoriels sur develoopez.com et sur OpenClassroom, rien 
+  n'explique ce que je veux faire. J'ai néamoins réussi à trouver une solution provisoire consistant à remettre le carré à sa position
+  de départ ou alors à le mettre en dehors de la map ce qui forcerait l'utilisateur à quitter et relancer pour pouvoir rejouer. C'est
+  la solution qui sera choisie.
+  - 1h
+  - Damien
