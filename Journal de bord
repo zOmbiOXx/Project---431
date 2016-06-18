@@ -174,3 +174,12 @@
   la mémoire des pointeurs des surfaces des images.
   - 2h30
   - Pablo
+
+17.06.2016
+- Création d'autres images pour le menu sur GIMP 2 vu que dans celles qu'on avait avant, on arrivait pas très bien à distinguer 
+  l'option selectionnée. Le problème de libération de mémoire a été trouvé. En fait, on affiche 4 images au même temps dans le menu, on 
+  en a une pour l'arrière plan, et une pour chaque bouton, le problème était que chaque fois que l'utilisateur appuyait sur une flèche
+  du clavier, les nouvelles images se mettaient par dessus les dernières, et ainsi de suite. Du coup, j'ai dû juste mettre à jour 
+  l'ecran (l'affichage) après l'appui de chaque flèche, et pas juste afficher les nouvelles images.
+  - 1h45
+  - Pablo
